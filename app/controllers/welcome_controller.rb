@@ -1,7 +1,7 @@
 class WelcomeController < ApplicationController
 
   def index
-    @welcome_message = "You use an instance variable to pass information from a controller to a view"
+    @welcome_message = "Welcome to the world of Monsoon and RPG - "
   end
 
 end

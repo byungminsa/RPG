@@ -1,0 +1,15 @@
+.bordered {
+border: 1px solid gray;
+} 
+
+.terminal{
+width:640px;
+height:427px;
+
+}
+
+.centered{
+  display:block;
+margin:auto;
+
+}
