@@ -1,7 +1,12 @@
 class WelcomeController < ApplicationController
 
   def index
-    @welcome_message = "Welcome to the world of Monsoon and RPG - "
+    @action_one = "Talk"
+    @action_two = "Punch"
+    @action_three = "Negotiate"
+    @action_four = "Steal"
+    @action_five = "Explode Self"
+
   end
 
 end
