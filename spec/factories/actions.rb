@@ -1,6 +1,5 @@
 FactoryGirl.define do
-  factory :stage do
-    
+  factory :action do
   end
 
 end

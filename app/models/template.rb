@@ -1,3 +1,4 @@
 class Template < ActiveRecord::Base
-  belongs_to :stage
+  has_one :choice
+  belongs_to :action
 end
