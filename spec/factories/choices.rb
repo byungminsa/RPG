@@ -1,5 +1,5 @@
 FactoryGirl.define do
-  factory :choice, :class => 'Choices' do
+  factory :choice do
     
   end
 
