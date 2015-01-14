@@ -4,6 +4,7 @@
       <ul class="list-unstyled">
       <li><%= @action_one %></li>
       <li><%= @action_two %></li>
+      <li><%= @action_three %></li>
       </ul>
 
   </div>
@@ -16,7 +17,7 @@
 
 <div class="row">
   <div class="col-xs-12 bordered">
-    <%= form_tag("/scene_one", method: "get", class:"text-center") do %>
+    <%= form_tag("/scene_three", method: "get", class:"text-center") do %>
      <%= label_tag(:q, "Type commands here:") %>
      <%= text_field_tag(:q) %>
      <%= submit_tag("Submit or press enter") %>
