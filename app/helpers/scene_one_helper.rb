@@ -1,0 +1,2 @@
+module SceneOneHelper
+end
